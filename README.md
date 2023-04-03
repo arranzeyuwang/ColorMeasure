@@ -1,4 +1,5 @@
-# Color Palettes Measures
+# Similarity and Distance Measures for Color Palettes
+
 Algorithms to compute mathematical and perceptual measurements within color palettes.
 
 ## Computation metrics
