@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F463617329D932F100C83A75 /* colorIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F463616929D932F100C83A75 /* colorIndex.cpp */; };
+		F463617429D932F100C83A75 /* getIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F463616B29D932F100C83A75 /* getIndex.cpp */; };
+		F463617529D932F100C83A75 /* labToAchromaticPreference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F463616C29D932F100C83A75 /* labToAchromaticPreference.cpp */; };
+		F463617629D932F100C83A75 /* labList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F463616D29D932F100C83A75 /* labList.cpp */; };
+		F463617729D932F100C83A75 /* labToCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F463617129D932F100C83A75 /* labToCH.cpp */; };
+		F463617829D932F100C83A75 /* labToCoolness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F463617229D932F100C83A75 /* labToCoolness.cpp */; };
+		F463617F29D9332800C83A75 /* colorNames_Counts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F463617C29D9332800C83A75 /* colorNames_Counts.cpp */; };
+		F463618029D9332800C83A75 /* colorNames_T.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F463617E29D9332800C83A75 /* colorNames_T.cpp */; };
 		F4DBB7DD29D92DE4000DB337 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4DBB7DC29D92DE4000DB337 /* main.cpp */; };
+		F4DBB7E829D92F27000DB337 /* ciede2000.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4DBB7E729D92F27000DB337 /* ciede2000.cpp */; };
+		F4DBB7EA29D92F96000DB337 /* nameDifference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4DBB7E929D92F96000DB337 /* nameDifference.cpp */; };
+		F4DBB7EC29D92FB3000DB337 /* nameUniqueness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4DBB7EB29D92FB3000DB337 /* nameUniqueness.cpp */; };
+		F4DBB7EE29D92FDD000DB337 /* pairPreference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4DBB7ED29D92FDD000DB337 /* pairPreference.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +35,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F463616829D932F100C83A75 /* labToCoolness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = labToCoolness.h; path = util/labToCoolness.h; sourceTree = "<group>"; };
+		F463616929D932F100C83A75 /* colorIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colorIndex.cpp; path = util/colorIndex.cpp; sourceTree = "<group>"; };
+		F463616A29D932F100C83A75 /* labList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = labList.h; path = util/labList.h; sourceTree = "<group>"; };
+		F463616B29D932F100C83A75 /* getIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = getIndex.cpp; path = util/getIndex.cpp; sourceTree = "<group>"; };
+		F463616C29D932F100C83A75 /* labToAchromaticPreference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = labToAchromaticPreference.cpp; path = util/labToAchromaticPreference.cpp; sourceTree = "<group>"; };
+		F463616D29D932F100C83A75 /* labList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = labList.cpp; path = util/labList.cpp; sourceTree = "<group>"; };
+		F463616E29D932F100C83A75 /* getIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getIndex.h; path = util/getIndex.h; sourceTree = "<group>"; };
+		F463616F29D932F100C83A75 /* labToAchromaticPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = labToAchromaticPreference.h; path = util/labToAchromaticPreference.h; sourceTree = "<group>"; };
+		F463617029D932F100C83A75 /* labToCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = labToCH.h; path = util/labToCH.h; sourceTree = "<group>"; };
+		F463617129D932F100C83A75 /* labToCH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = labToCH.cpp; path = util/labToCH.cpp; sourceTree = "<group>"; };
+		F463617229D932F100C83A75 /* labToCoolness.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = labToCoolness.cpp; path = util/labToCoolness.cpp; sourceTree = "<group>"; };
+		F463617C29D9332800C83A75 /* colorNames_Counts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colorNames_Counts.cpp; path = colorNames/colorNames_Counts.cpp; sourceTree = "<group>"; };
+		F463617D29D9332800C83A75 /* colorNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = colorNames.h; path = colorNames/colorNames.h; sourceTree = "<group>"; };
+		F463617E29D9332800C83A75 /* colorNames_T.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colorNames_T.cpp; path = colorNames/colorNames_T.cpp; sourceTree = "<group>"; };
 		F4DBB7D929D92DE4000DB337 /* ColorMeasure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ColorMeasure; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBB7DC29D92DE4000DB337 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4DBB7E329D92EED000DB337 /* scores.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scores.h; sourceTree = "<group>"; };
+		F4DBB7E729D92F27000DB337 /* ciede2000.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ciede2000.cpp; sourceTree = "<group>"; };
+		F4DBB7E929D92F96000DB337 /* nameDifference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nameDifference.cpp; sourceTree = "<group>"; };
+		F4DBB7EB29D92FB3000DB337 /* nameUniqueness.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nameUniqueness.cpp; sourceTree = "<group>"; };
+		F4DBB7ED29D92FDD000DB337 /* pairPreference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pairPreference.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +69,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F463616729D932E700C83A75 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F463616929D932F100C83A75 /* colorIndex.cpp */,
+				F463616B29D932F100C83A75 /* getIndex.cpp */,
+				F463616E29D932F100C83A75 /* getIndex.h */,
+				F463616D29D932F100C83A75 /* labList.cpp */,
+				F463616A29D932F100C83A75 /* labList.h */,
+				F463616C29D932F100C83A75 /* labToAchromaticPreference.cpp */,
+				F463616F29D932F100C83A75 /* labToAchromaticPreference.h */,
+				F463617129D932F100C83A75 /* labToCH.cpp */,
+				F463617029D932F100C83A75 /* labToCH.h */,
+				F463617229D932F100C83A75 /* labToCoolness.cpp */,
+				F463616829D932F100C83A75 /* labToCoolness.h */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		F463617B29D9331C00C83A75 /* colorNames */ = {
+			isa = PBXGroup;
+			children = (
+				F463617C29D9332800C83A75 /* colorNames_Counts.cpp */,
+				F463617E29D9332800C83A75 /* colorNames_T.cpp */,
+				F463617D29D9332800C83A75 /* colorNames.h */,
+			);
+			name = colorNames;
+			sourceTree = "<group>";
+		};
 		F4DBB7D029D92DE4000DB337 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +117,13 @@
 			isa = PBXGroup;
 			children = (
 				F4DBB7DC29D92DE4000DB337 /* main.cpp */,
+				F4DBB7E329D92EED000DB337 /* scores.h */,
+				F4DBB7E729D92F27000DB337 /* ciede2000.cpp */,
+				F4DBB7E929D92F96000DB337 /* nameDifference.cpp */,
+				F463617B29D9331C00C83A75 /* colorNames */,
+				F4DBB7EB29D92FB3000DB337 /* nameUniqueness.cpp */,
+				F463616729D932E700C83A75 /* util */,
+				F4DBB7ED29D92FDD000DB337 /* pairPreference.cpp */,
 			);
 			path = ColorMeasure;
 			sourceTree = "<group>";
@@ -119,7 +185,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DBB7E829D92F27000DB337 /* ciede2000.cpp in Sources */,
+				F463617829D932F100C83A75 /* labToCoolness.cpp in Sources */,
+				F463617729D932F100C83A75 /* labToCH.cpp in Sources */,
 				F4DBB7DD29D92DE4000DB337 /* main.cpp in Sources */,
+				F463617529D932F100C83A75 /* labToAchromaticPreference.cpp in Sources */,
+				F463617329D932F100C83A75 /* colorIndex.cpp in Sources */,
+				F4DBB7EC29D92FB3000DB337 /* nameUniqueness.cpp in Sources */,
+				F4DBB7EE29D92FDD000DB337 /* pairPreference.cpp in Sources */,
+				F463617F29D9332800C83A75 /* colorNames_Counts.cpp in Sources */,
+				F463617629D932F100C83A75 /* labList.cpp in Sources */,
+				F4DBB7EA29D92F96000DB337 /* nameDifference.cpp in Sources */,
+				F463617429D932F100C83A75 /* getIndex.cpp in Sources */,
+				F463618029D9332800C83A75 /* colorNames_T.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
